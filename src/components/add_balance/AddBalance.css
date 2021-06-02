@@ -1,0 +1,56 @@
+.add-balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 40%;
+    background: #18191a;
+    padding: 30px;
+}
+
+.balance-heading {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input {
+    border-radius: 6px;
+    width: 70%;
+    height: max-content;
+    padding: 12px 28px;
+    margin: 8px 0;
+    font-size: large;
+    border: 1px solid rgb(33, 39, 33);
+    /* box-sizing: border-box; */
+    color: rgb(255, 255, 255);
+    background: #3a3b3c
+}
+
+.desposite-button {
+    background-color: #227925;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.withdraw-button {
+    background-color: #B73225;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}

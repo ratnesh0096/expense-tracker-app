@@ -1,0 +1,117 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 100%;
+    background: #181818;
+    border: 2px salmon;
+    margin-top: 10px;
+    padding: 30px;
+    padding-top: 2px;
+    overflow-y: auto;
+}
+
+.transaction-container {
+    padding-left: 22px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    width: 97%;
+    margin: 10px;
+    display: flex;
+    background: #3d3d3d;
+    color: seashell;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    /* position: relative;
+        display: inline-block;
+    border-bottom: 1px dotted black; */
+}
+
+.hide {
+    background: #BC243C;
+    width: 97%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+
+.transaction-container:hover+.hide {
+    display: block;
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.date {
+    width: 50%;
+    /* border: 1px solid white; */
+    margin: 4px;
+}
+
+.expense {
+    width: 13%;
+    margin: 4px;
+    /* color: rgba(252, 0, 0, 0.644); */
+    /* border: 1px solid white; */
+}
+
+.currentBalance {
+    width: 15%;
+    margin: 4px;
+    /* border: 1px solid white; */
+}
+
+.image {
+    width: 15px;
+    height: 15px;
+}
+
+.arrow-up {
+    border: solid rgb(96, 241, 96);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.arrow-down {
+    /* margin-left: 15px; */
+    border: solid rgb(252, 69, 63);
+    border-width: 0 5px 5px 0;
+    /* display: inline-block; */
+    padding: 4px;
+    /* height: 10px; */
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.currentBalance {
+    color: yellow;
+}
+
+.edit {
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.user-note {
+    height: fit-content;
+    background: white;
+    align-self: flex-start;
+    border-radius: 5px;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    color: maroon;
+}
